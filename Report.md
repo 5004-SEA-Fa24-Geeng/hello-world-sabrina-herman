@@ -50,8 +50,7 @@ The AlohaWorld class is what is considered a driver. It "drives" the program, me
     Test Driving Development is creating tests for every method in your classes. Instead of testing a bunch of inputs within the code or terminal, the programmer can create tests to easily run which coding.
 
 
-7. Go to the [Markdown Playground](MarkdownPlayground.md) and add at least 3 different markdown elements you learned about by reading the markdown resources listed in the document. Additionally you need to add a mermaid class diagram (of your choice does not have to follow the assignment. However, if you did use mermaid for the assignment, you can just copy that there). Add the elements into the markdown file, so that the formatting changes are reserved to that file. 
-
+7. Go to the [Markdown Playground](MarkdownPlayground.md) and add at least 3 different markdown elements you learned about by reading the markdown resources listed in the document. Additionally you need to add a mermaid class diagram (of your choice does not have to follow the assignment. However, if you did use mermaid for the assignment, you can just copy that there). Add the elements into the markdown file, so that the formatting changes are reserved to that file.
 
 ## Deeper Thinking Questions
 

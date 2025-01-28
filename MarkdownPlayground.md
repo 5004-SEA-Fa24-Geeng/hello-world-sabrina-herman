@@ -21,3 +21,21 @@ Mermaid is a markdown language that allows you to create diagrams. You can find 
 
 <!-- start your playground code under this dashed line -->
 ----
+
+# Heading Level 1
+<p>Here is a line break!<br>This is the line after the break!</p>
+**Bold Text**
+
+```mermaid
+---
+config:
+look: handDrawn
+theme: neutral
+---
+flowchart LR
+Begin --> A
+Begin --> B
+B --> C
+
+```
+
