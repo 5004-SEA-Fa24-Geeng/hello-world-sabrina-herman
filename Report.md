@@ -12,6 +12,7 @@ link an image in markdown. You may also use [mermaid] class diagrams if you pref
 ### Program Flow
 Write a short paragraph detailing the flow of the program in your own words. This is to help you understand / trace the code (and give you practice of something called a code walk that will be required in this course).
 
+The AlohaWorld class is what is considered a driver. It "drives" the program, meaning it is where you run the program. ConsoleView is what gets the input from the user. It is able to get the name of the user, the locality, check if it needs to run again, and print the greeting. Greeter is where the program is able to take the inputs and do something with them. It has all the getters ConsoleView has, as well as ones for the Locality String and list. It is able to put together the greetings for the console.
 
 ## Assignment Questions
 
