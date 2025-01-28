@@ -158,7 +158,7 @@ public class Greeting {
     }
 
     /**
-     * Creates a formatted string for testing
+     * Creates a formatted string for testing.
      * @return the full greeting details as a string.
      */
     public String toString() {
