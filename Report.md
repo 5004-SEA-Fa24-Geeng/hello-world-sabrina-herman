@@ -25,9 +25,9 @@ The AlohaWorld class is what is considered a driver. It "drives" the program, me
 
 2. For each syntax additional item listed above, explain what it does in your own words and then link a resource where you figured out what it does in the references section. 
 
-    * Final means that either a variable, class, or method is not able to be changed after its initialization or creation. A method can't be overridden and a class can't be extended.[^1]
+    * Final means that either a variable, class, or method is not able to be changed in a way that is applicable to each after its initialization or creation. A method can't be overridden and a class can't be extended. This is used for variables to make them constant. [^1]
     * Static means that the method or variable is able to be accessed within all instances within the class. It is helpful for memory allocation. [^2]
-    * instanceof checks if a variable has a specific object within it. It returns true if it does, otherwise it will return false. [^3]
+    * instanceof verifies that a variable has a specific object within it. It returns true if it does, otherwise it will return false. [^3]
 
 
 3. What does `main` do in Java? 
