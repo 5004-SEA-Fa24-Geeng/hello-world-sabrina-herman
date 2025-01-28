@@ -1,22 +1,38 @@
 package student;
 
 /**
- * This class creates a greeting
+ * This class creates a greeting.
  *
  * https://cs5004-khoury-lionelle.github.io/hello_world/student/package-summary.html
  *
  */
 public class Greeting {
 
+    /** int value of the locality ID. */
     private int localityID;
+
+    /** String value of the locality Name. */
     private String localityName;
+
+    /** String value of the ascii greeting. */
     private String asciiGreeting;
+
+    /** String value of the unicode greeting. */
     private String unicodeGreeting;
+
+    /** String value of the formatted greeting and name. */
     private String formatStr;
 
+    /** Int value of HAWAII greeting. */
     private static final int HAWAII = 1;
+
+    /** Int value of China greeting. */
     private static final int CHINA = 3;
+
+    /** Int value of Italy greeting. */
     private static final int ITALY = 4;
+
+    /** Default value of greeting. */
     private static final int DEFAULT_LOCALITY = 2;
 
     /**
@@ -90,7 +106,7 @@ public class Greeting {
     }
 
     /**
-     * Gets the format string
+     * Gets the format string.
      * @return Returns the unicode format string.
      */
     public String getFormatStr() {
@@ -99,7 +115,6 @@ public class Greeting {
             case HAWAII:
                 greeting = "Aloha, %s!";
                 break;
-            // skip case 2, it is the default greeting
             case CHINA:
                 greeting = "%s, 你好!";
                 break;
@@ -113,7 +128,8 @@ public class Greeting {
     }
 
     /**
-     * Gets the format string
+     * Gets the format string.
+     * @param asciiOnly A Boolean that delares whether the format string is ascii only or not.
      * @return Returns the format string with the greeting inserted into the format.
      */
     public String getFormatStr(boolean asciiOnly) {
@@ -151,6 +167,10 @@ public class Greeting {
                                 getUnicodeGreeting());
     }
 
+    /**
+     * A main to run the program.
+     * @param args Input from the terminal.
+     */
     public static void main(String[] args) {
 
     }
