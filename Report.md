@@ -37,7 +37,7 @@ The AlohaWorld class is what is considered a driver. It "drives" the program, me
 
 4. What does `toString()` do in Java? Why should any object class you create have a `toString()` method?
 
-    ToString() is important because it creates an easily readable output for your object class. It is also helpful for testing, as the programmer can check if the program is taking in the variable correctly. It also simplifies and creates a reusable string to print for outputs. 
+    ToString() is important because it creates an easily readable output for your object class. It simplifies and creates a reusable string to print for outputs. [^5] It is also helpful for testing, as the programmer can check if the program is taking in the variable correctly.
 
 
 5. What is javadoc style commenting? What is it used for? 
@@ -58,7 +58,7 @@ These questions require deeper thinking of the topic. We don't expect 100% corre
 
 
 1. Why would we want to keep interaction with the client contained to ConsoleView?
-   Keeping interaction with the client contained within one class, ConsoleView, is important because a program can only be ran in one place.
+   Keeping interaction with the client contained within one class, ConsoleView, is important because a program can only be run in one place.
 
 
 2. Right now, the application isn't very dynamic in that it can be difficult to add new languages and greetings without modifying the code every time. Just thinking programmatically,  how could you make the application more dynamic? You are free to reference Geeting.java and how that could be used in your design.
@@ -79,6 +79,7 @@ These questions require deeper thinking of the topic. We don't expect 100% corre
 
 [^4]: Java main() Method – public static void main(String[] args): 2024. https://www.geeksforgeeks.org/java-main-method-public-static-void-main-string-args/. Accessed: 2025-01-27.
 
+[^5]: Java toString() Method: https://www.javatpoint.com/understanding-toString()-method. Accessed 2025-01-27
 
 <!-- This is a comment, below this link the links in the document are placed here to make ti easier to read. This is an optional style for markdown, and often as a student you will include the links inline. for example [mermaid](https://mermaid.js.org/intro/syntax-reference.html) -->
 [mermaid]: https://mermaid.js.org/intro/syntax-reference.html
