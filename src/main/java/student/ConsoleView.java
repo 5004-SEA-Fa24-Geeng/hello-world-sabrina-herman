@@ -18,7 +18,7 @@ public final class ConsoleView {
     // application to
     // prevent conflicts.
     /** scanner pointing towards System.in. */
-    private static final Scanner SCANNER = new Scanner(System); // System.in is a standard input
+    private static final Scanner SCANNER = new Scanner(System.in); // System.in is a standard input
                                                                 // stream, it is used to read
                                                                 // data from the keyboard.
     /** Stores the locality lists from Greeter to prevent additional copies. */
@@ -91,10 +91,10 @@ public final class ConsoleView {
         System.out.print("Would you like be greeted again (yes/no)? ");
         String input = SCANNER.nextLine().toLowerCase(); // converts the input to lowercase
         if (input.equals("yes") || input.equals("y")) {
-            return true;
+            return false;
         } else if (input.equals("no") || input.equals("n")) { // || is the 'or' operator in many
                                                               // languages, && is the 'and' operator
-            return false;
+            return true;
         } else {
             System.out.println("Invalid answer, please try again.");
             return checkRunAgain();
