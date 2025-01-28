@@ -18,7 +18,7 @@ The AlohaWorld class is what is considered a driver. It "drives" the program, me
 
 1. List three additional java syntax items you didn't know when reading the code.  (make sure to use * for the list items, see example below, the backtick marks are used to write code inline with markdown)
    
-   * (example) `final class`
+   * final class
 
 2. For each syntax additional item listed above, explain what it does in your own words and then link a resource where you figured out what it does in the references section. 
 

@@ -16,7 +16,7 @@ package student;
  * </p>
  *
  * @author Sabrina Herman
- * @version Spr2025
+ * @version Spring2025
  **/
 
 // this is a single line comment
