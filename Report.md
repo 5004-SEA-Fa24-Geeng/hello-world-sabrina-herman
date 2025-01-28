@@ -19,10 +19,13 @@ The AlohaWorld class is what is considered a driver. It "drives" the program, me
 1. List three additional java syntax items you didn't know when reading the code.  (make sure to use * for the list items, see example below, the backtick marks are used to write code inline with markdown)
    
    * final class
+   * static
+   * instanceof
 
 2. For each syntax additional item listed above, explain what it does in your own words and then link a resource where you figured out what it does in the references section. 
 
-    * (example) The `final` keyword when used on a class prevents the class from being subclassed. This means that the class cannot be extended by another class. This is useful when you want to prevent a class from being modified or extended[^1] . It is often the standard to do this when a class only contains static methods such as driver or utility classes. Math in Java is an example of a final class[^2] .
+    * Final means that either a variable, class, or method is not able to be changed after its initialization. A method can't be overridden and a class can't be extended.[^1]
+    * Static means that able to be accessed within all instances within the class. It is helpful for memory allocation. [^2]
 
 3. What does `main` do in Java? 
 
@@ -63,9 +66,9 @@ These questions require deeper thinking of the topic. We don't expect 100% corre
 
 ## References
 
-[^1]: Final keyword in Java: 2024. https://www.geeksforgeeks.org/final-keyword-in-java/. Accessed: 2024-03-30. 
+[^1]: Final keyword in Java: 2024. https://www.geeksforgeeks.org/final-keyword-in-java/. Accessed: 2025-01-27. 
 
-[^2]: Math (Java Platform SE 17). https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html. Accessed: 2024-03-30.
+[^2]: static keyword in Java: 2025. https://www.geeksforgeeks.org/static-keyword-java/. Accessed: 2025-01-27.
 
 
 <!-- This is a comment, below this link the links in the document are placed here to make ti easier to read. This is an optional style for markdown, and often as a student you will include the links inline. for example [mermaid](https://mermaid.js.org/intro/syntax-reference.html) -->
